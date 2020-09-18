@@ -1,0 +1,121 @@
+PODS:
+  - AMap3DMap (7.5.0):
+    - AMapFoundation (~> 1.6.3)
+  - amap_core_fluttify (0.0.1):
+    - AMapFoundation (~> 1.6.4)
+    - Flutter
+    - foundation_fluttify
+  - amap_location (0.0.1):
+    - AMapLocation
+    - Flutter
+  - amap_location_flutter_plugin (0.0.1):
+    - AMapLocation
+    - Flutter
+  - amap_location_fluttify (0.0.1):
+    - amap_core_fluttify
+    - AMapLocation (~> 2.6.5)
+    - Flutter
+    - foundation_fluttify
+  - amap_map_fluttify (0.0.1):
+    - AMap3DMap (~> 7.5.0)
+    - amap_core_fluttify
+    - amap_location_fluttify
+    - amap_search_fluttify
+    - Flutter
+    - foundation_fluttify
+    - url_launcher
+  - amap_search_fluttify (0.0.1):
+    - amap_core_fluttify
+    - AMapSearch (~> 7.3.0)
+    - Flutter
+    - foundation_fluttify
+  - AMapFoundation (1.6.4)
+  - AMapLocation (2.6.7):
+    - AMapFoundation (~> 1.6.4)
+  - AMapSearch (7.3.0):
+    - AMapFoundation (~> 1.6.3)
+  - core_location_fluttify (0.0.1):
+    - Flutter
+    - foundation_fluttify
+  - Flutter (1.0.0)
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - foundation_fluttify (0.0.1):
+    - Flutter
+  - "permission_handler (4.4.0+hotfix.4)":
+    - Flutter
+  - Toast (4.0.0)
+  - url_launcher (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - amap_core_fluttify (from `.symlinks/plugins/amap_core_fluttify/ios`)
+  - amap_location (from `.symlinks/plugins/amap_location/ios`)
+  - amap_location_flutter_plugin (from `.symlinks/plugins/amap_location_flutter_plugin/ios`)
+  - amap_location_fluttify (from `.symlinks/plugins/amap_location_fluttify/ios`)
+  - amap_map_fluttify (from `.symlinks/plugins/amap_map_fluttify/ios`)
+  - amap_search_fluttify (from `.symlinks/plugins/amap_search_fluttify/ios`)
+  - core_location_fluttify (from `.symlinks/plugins/core_location_fluttify/ios`)
+  - Flutter (from `Flutter`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - foundation_fluttify (from `.symlinks/plugins/foundation_fluttify/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - Toast
+
+EXTERNAL SOURCES:
+  amap_core_fluttify:
+    :path: ".symlinks/plugins/amap_core_fluttify/ios"
+  amap_location:
+    :path: ".symlinks/plugins/amap_location/ios"
+  amap_location_flutter_plugin:
+    :path: ".symlinks/plugins/amap_location_flutter_plugin/ios"
+  amap_location_fluttify:
+    :path: ".symlinks/plugins/amap_location_fluttify/ios"
+  amap_map_fluttify:
+    :path: ".symlinks/plugins/amap_map_fluttify/ios"
+  amap_search_fluttify:
+    :path: ".symlinks/plugins/amap_search_fluttify/ios"
+  core_location_fluttify:
+    :path: ".symlinks/plugins/core_location_fluttify/ios"
+  Flutter:
+    :path: Flutter
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  foundation_fluttify:
+    :path: ".symlinks/plugins/foundation_fluttify/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+
+SPEC CHECKSUMS:
+  AMap3DMap: fc7c911f5cf079d544ad7faec256c9554cbbb202
+  amap_core_fluttify: c0c2853f5c2a1003b628398026cc2e960ecf3186
+  amap_location: c74996b21362e8f354431e20ce9a6ec841556e03
+  amap_location_flutter_plugin: 3979d619b9fb9067789f2c3ce577b1d57b5a3368
+  amap_location_fluttify: b273a9b719a7f877ba426d1c6aeadd520e0bf7b6
+  amap_map_fluttify: d1b18a3c5a5d7e1ec5982433c5de0500042e5999
+  amap_search_fluttify: 1654f7c14dd5e690561812dc76576d4fdabeacfb
+  AMapFoundation: 3638198dfa40be54648570c3520edefad288286b
+  AMapLocation: a46c30d9930d0f3a3bd21139d8f845d10ac3f01d
+  AMapSearch: a048bcca3bf0b8083345070e1f193f814bd8dc01
+  core_location_fluttify: 9466a411ea7d22c6349c7e6a767ae4623f01eb1d
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
+  foundation_fluttify: 0c45145e3fad1fb99188e4979daed5b24cd9b278
+  permission_handler: 8278954f2382902f63f00dd8828769c0bd6d511b
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher: 6fef411d543ceb26efce54b05a0a40bfd74cbbef
+
+PODFILE CHECKSUM: c828106a054d27aae8b2872e20bfd100c5f77425
+
+COCOAPODS: 1.9.3
